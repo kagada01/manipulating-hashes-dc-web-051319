@@ -22,7 +22,7 @@ def first_challenge
       if attribute == :favorite_icecream_flavors
         value.each do |flavor|
         if flavor == "strawberry"
-          valeu.delete("strawberry")
+          value.delete("strawberry")
         end
       end
       contacts["Jon Snow"][:favorite_icecream_flavors]
