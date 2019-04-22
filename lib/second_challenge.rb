@@ -15,5 +15,4 @@ grocery_list = []
       grocery_list.push(food)
     end
   end
-
 end
