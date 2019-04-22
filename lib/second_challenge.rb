@@ -12,6 +12,6 @@ grocery_list = []
 
 groceries.each do |category, item|
   item.each do |food_group, food|
-    
+    grocery_list.push(food)
 
 end
