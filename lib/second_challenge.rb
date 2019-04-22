@@ -8,6 +8,8 @@ def second_challenge
 
   #code your solution here!
 
+grocery_list = []
+
 groceries.each do |category, item|
   item.each do |food_group, food|
     
